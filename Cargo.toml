@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "client",
+    "server",
+    "common"
+]
+resolver = "3"
+dependencies = { common = { path = "common" } }
+edition = "2024"
